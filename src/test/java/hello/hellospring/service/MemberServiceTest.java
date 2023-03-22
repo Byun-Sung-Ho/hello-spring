@@ -17,7 +17,7 @@ class MemberServiceTest {
     //MemberService memberService = new MemberService();
     //MemoryMemberRepository memberRepository = new MemoryMemberRepository();
     // 근데 이러면 다른 인스턴스의 사용과 같다
-
+    //그래서 아래와 같은
     //DI 방식
     @BeforeEach
     public void beforeEach(){
